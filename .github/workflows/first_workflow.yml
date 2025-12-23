@@ -6,5 +6,9 @@ jobs:
     steps:
       - name: say-hello
         run: echo "hello"
+      - name: say-ready
+        run: |
+          echo "are you ready?" 
+          echo "maybe you are ready" 
       - name: say-bye
         run: echo "goodbye!"
